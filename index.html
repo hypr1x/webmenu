@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FROST SLOTTED</title>
+    <!-- Include Font Awesome for Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <!-- <h2 class="sidebar-title">Cheat Menu</h2> -->
+            <img src="./logo.gif" alt="" srcset="" class="logo">
+            <ul class="sidebar-list">
+                <li onclick="navigate('aimbot')" class="sidebar-item">
+                    <i class="fas fa-crosshairs"></i>
+                    <span>AIMBOT</span>
+                </li>
+                <li onclick="navigate('player-esp')" class="sidebar-item">
+                    <i class="fas fa-eye"></i>
+                    <span>PLAYER ESP</span>
+                </li>
+                <li onclick="navigate('world-esp')" class="sidebar-item">
+                    <i class="fas fa-globe"></i>
+                    <span>WORLD ESP</span>
+                </li>
+                <!-- <li onclick="navigate('radar')" class="sidebar-item">
+                    <i class="fas fa-radar"></i>
+                    <span>Radar</span>
+                </li> -->
+                <li onclick="navigate('triggerbot')" class="sidebar-item">
+                    <i class="fas fa-bullseye"></i>
+                    <span>TRIGGERBOT</span>
+                </li>
+                <li onclick="navigate('player-list')" class="sidebar-item">
+                    <i class="fas fa-users"></i>
+                    <span>PLAYER LIST</span>
+                </li>
+                <li onclick="navigate('misc')" class="sidebar-item">
+                    <i class="fas fa-cogs"></i>
+                    <span>MISC</span>
+                </li>
+                <li onclick="navigate('debug')" class="sidebar-item">
+                    <i class="fas fa-bug"></i>
+                    <span>DEBUG</span>
+                </li>
+                <li onclick="navigate('configs')" class="sidebar-item">
+                    <i class="fas fa-save"></i>
+                    <span>CONFIGS</span>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main id="main-content">
+            <!-- Add content sections as shown previously -->
+            <section id="aimbot" class="content-section active">
+                <h2>Aimbot</h2>
+                <div class="wrap">
+                    <div class="title">GLOBAL TOGGLE</div>
+                    <hr>
+                    <div class="checkbox-wrap mb">
+                        <input type="checkbox" name="" id=""> <div class="option">Enable Aimbot</div>
+                    </div>
+                    <div class="key-wrap">
+                        <div class="label">Global Toggle Key</div>
+                        <div class="btn">RIGHT MOUSE</div>
+                    </div>
+                </div>
+            </section>
+            <!-- Add other sections as shown in the previous response -->
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
